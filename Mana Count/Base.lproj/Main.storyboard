@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ad_Nauseam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mana_Count" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,34 +22,34 @@
                                 <rect key="frame" x="5" y="5" width="657" height="365"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HIO-tc-yhj">
-                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="storm" translatesAutoresizingMaskIntoConstraints="NO" id="x8i-9b-6vr">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gL2-g0-IJm">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="In4-7o-kmH">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="72"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4p3-bK-UD3">
-                                                <rect key="frame" x="0.0" y="293" width="105.5" height="72"/>
+                                                <rect key="frame" x="0.0" y="293" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MVg-Jg-U3R">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                                 <subviews>
                                                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWe-06-OFx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -57,7 +57,7 @@
                                                         </connections>
                                                     </view>
                                                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6z-Uh-DMp">
-                                                        <rect key="frame" x="0.0" y="182.5" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="182.5" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -90,34 +90,34 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ck-1z-qDV">
-                                        <rect key="frame" x="110.5" y="0.0" width="105" height="365"/>
+                                        <rect key="frame" x="94.5" y="0.0" width="89.5" height="365"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plains" translatesAutoresizingMaskIntoConstraints="NO" id="Dwh-BB-NqW">
-                                                <rect key="frame" x="0.0" y="0.0" width="105" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YkG-SU-nss">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105" height="365"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="365"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1U-Wo-AjF">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105" height="72"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7V1-Tk-Hp4">
-                                                <rect key="frame" x="-0.5" y="293" width="105" height="72"/>
+                                                <rect key="frame" x="-0.5" y="293" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="U2j-Hb-gfv">
-                                                <rect key="frame" x="0.0" y="0.0" width="105" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                                 <subviews>
                                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="olb-bF-hvg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="105" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -125,7 +125,7 @@
                                                         </connections>
                                                     </view>
                                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ndl-4Q-w7I">
-                                                        <rect key="frame" x="0.0" y="182.5" width="105" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="182.5" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -158,34 +158,34 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W8t-DC-IQP">
-                                        <rect key="frame" x="220.5" y="0.0" width="105.5" height="365"/>
+                                        <rect key="frame" x="189" y="0.0" width="89.5" height="365"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountain" translatesAutoresizingMaskIntoConstraints="NO" id="h8X-LB-W1r">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LE-iK-KUz">
-                                                <rect key="frame" x="-0.5" y="0.0" width="106" height="365"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="90" height="365"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylc-Tp-ciU">
-                                                <rect key="frame" x="-0.5" y="0.0" width="106" height="72"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="90" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRZ-ab-hbG">
-                                                <rect key="frame" x="-0.5" y="293" width="106" height="72"/>
+                                                <rect key="frame" x="-0.5" y="293" width="90" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="m5f-2j-Uod">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                                 <subviews>
                                                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0C-E4-RXs">
-                                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -193,7 +193,7 @@
                                                         </connections>
                                                     </view>
                                                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Go9-QN-fl4">
-                                                        <rect key="frame" x="0.0" y="182.5" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="182.5" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -226,34 +226,34 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xe8-nD-W4j">
-                                        <rect key="frame" x="331" y="0.0" width="105.5" height="365"/>
+                                        <rect key="frame" x="283.5" y="0.0" width="90" height="365"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="island" translatesAutoresizingMaskIntoConstraints="NO" id="cXX-oE-Y2E">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="365"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFB-qF-sM4">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="90" height="365"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qew-ne-Wnx">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105.5" height="72"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="90" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXW-tR-Tan">
-                                                <rect key="frame" x="-0.5" y="293" width="105.5" height="72"/>
+                                                <rect key="frame" x="-0.5" y="293" width="90" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0pp-8Q-mTJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="365"/>
                                                 <subviews>
                                                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAW-9i-DPg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -261,7 +261,7 @@
                                                         </connections>
                                                     </view>
                                                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6sl-pK-pjG">
-                                                        <rect key="frame" x="0.0" y="182.5" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="182.5" width="90" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -294,34 +294,34 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WCn-yN-MSb">
-                                        <rect key="frame" x="441.5" y="0.0" width="105" height="365"/>
+                                        <rect key="frame" x="378.5" y="0.0" width="89.5" height="365"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forest" translatesAutoresizingMaskIntoConstraints="NO" id="mAW-hc-g1o">
-                                                <rect key="frame" x="0.0" y="0.0" width="105" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rom-rW-vUc">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105" height="365"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="365"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wO-O5-7Qa">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105" height="72"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQV-Bk-1Wf">
-                                                <rect key="frame" x="-0.5" y="293" width="105" height="72"/>
+                                                <rect key="frame" x="-0.5" y="293" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UgU-X4-HHq">
-                                                <rect key="frame" x="0.0" y="0.0" width="105" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                                 <subviews>
                                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDo-zv-LEe">
-                                                        <rect key="frame" x="0.0" y="0.0" width="105" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -329,7 +329,7 @@
                                                         </connections>
                                                     </view>
                                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWz-Wb-OK7">
-                                                        <rect key="frame" x="0.0" y="182.5" width="105" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="182.5" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -362,34 +362,34 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YDv-gp-9k7">
-                                        <rect key="frame" x="551.5" y="0.0" width="105.5" height="365"/>
+                                        <rect key="frame" x="473" y="0.0" width="89.5" height="365"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swamp" translatesAutoresizingMaskIntoConstraints="NO" id="F8l-F9-9rE">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3t7-27-nnT">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="365"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5m-hF-dbK">
-                                                <rect key="frame" x="-0.5" y="0.0" width="105.5" height="72"/>
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaQ-Rf-Mc2">
-                                                <rect key="frame" x="-0.5" y="293" width="105.5" height="72"/>
+                                                <rect key="frame" x="-0.5" y="293" width="89.5" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YCw-Ey-ML0">
-                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="365"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
                                                 <subviews>
                                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RZJ-Bb-KVL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -397,7 +397,7 @@
                                                         </connections>
                                                     </view>
                                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Eb-Qj-KEk">
-                                                        <rect key="frame" x="0.0" y="182.5" width="105.5" height="182.5"/>
+                                                        <rect key="frame" x="0.0" y="182.5" width="89.5" height="182.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <connections>
@@ -429,6 +429,74 @@
                                             <constraint firstItem="m5m-hF-dbK" firstAttribute="leading" secondItem="YDv-gp-9k7" secondAttribute="leading" id="zX0-N8-BZj"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNk-KO-hyV" userLabel="Colorless View">
+                                        <rect key="frame" x="567.5" y="0.0" width="89.5" height="365"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waste" translatesAutoresizingMaskIntoConstraints="NO" id="zcy-zw-IGC">
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYM-hK-jQq">
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="365"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baf-Ej-bTu">
+                                                <rect key="frame" x="-0.5" y="0.0" width="89.5" height="72"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FL8-SA-n66">
+                                                <rect key="frame" x="-0.5" y="293" width="89.5" height="72"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UYP-3k-k7G">
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="365"/>
+                                                <subviews>
+                                                    <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9N-x2-pB9">
+                                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="182.5"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="bvp-sD-n8G" appends="YES" id="Ga6-VB-2Gx"/>
+                                                        </connections>
+                                                    </view>
+                                                    <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXN-fK-LeS">
+                                                        <rect key="frame" x="0.0" y="182.5" width="89.5" height="182.5"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="f32-Bc-bgV" appends="YES" id="Y3b-dg-T0u"/>
+                                                        </connections>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="zcy-zw-IGC" secondAttribute="bottom" id="466-Ql-r2K"/>
+                                            <constraint firstAttribute="trailing" secondItem="UYP-3k-k7G" secondAttribute="trailing" id="5kY-cS-QTk"/>
+                                            <constraint firstItem="UYP-3k-k7G" firstAttribute="leading" secondItem="MNk-KO-hyV" secondAttribute="leading" id="9Y5-kL-tae"/>
+                                            <constraint firstAttribute="bottom" secondItem="QYM-hK-jQq" secondAttribute="bottom" id="ATE-IP-aTz"/>
+                                            <constraint firstItem="zcy-zw-IGC" firstAttribute="leading" secondItem="MNk-KO-hyV" secondAttribute="leading" id="QbC-v5-MVA"/>
+                                            <constraint firstAttribute="trailing" secondItem="QYM-hK-jQq" secondAttribute="trailing" id="Vfx-9P-iPi"/>
+                                            <constraint firstItem="QYM-hK-jQq" firstAttribute="top" secondItem="MNk-KO-hyV" secondAttribute="top" id="YDD-hP-Skh"/>
+                                            <constraint firstAttribute="trailing" secondItem="Baf-Ej-bTu" secondAttribute="trailing" id="Zuh-KW-3xr"/>
+                                            <constraint firstItem="zcy-zw-IGC" firstAttribute="top" secondItem="MNk-KO-hyV" secondAttribute="top" id="af6-He-ILU"/>
+                                            <constraint firstItem="UYP-3k-k7G" firstAttribute="top" secondItem="MNk-KO-hyV" secondAttribute="top" id="bcV-ob-8gC"/>
+                                            <constraint firstItem="QYM-hK-jQq" firstAttribute="leading" secondItem="MNk-KO-hyV" secondAttribute="leading" id="bve-ax-tNU"/>
+                                            <constraint firstAttribute="bottom" secondItem="UYP-3k-k7G" secondAttribute="bottom" id="dSw-yw-5cg"/>
+                                            <constraint firstItem="Baf-Ej-bTu" firstAttribute="leading" secondItem="MNk-KO-hyV" secondAttribute="leading" id="eUb-8M-39B"/>
+                                            <constraint firstAttribute="bottom" secondItem="FL8-SA-n66" secondAttribute="bottom" id="iuF-oP-7Na"/>
+                                            <constraint firstAttribute="trailing" secondItem="zcy-zw-IGC" secondAttribute="trailing" id="mgH-cM-G5c"/>
+                                            <constraint firstAttribute="trailing" secondItem="FL8-SA-n66" secondAttribute="trailing" id="nSk-lS-q8R"/>
+                                            <constraint firstItem="FL8-SA-n66" firstAttribute="leading" secondItem="MNk-KO-hyV" secondAttribute="leading" id="tlx-SB-Bt5"/>
+                                            <constraint firstItem="Baf-Ej-bTu" firstAttribute="top" secondItem="MNk-KO-hyV" secondAttribute="top" id="yJp-Gp-EIK"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -444,6 +512,7 @@
                     <connections>
                         <outlet property="blackView" destination="YDv-gp-9k7" id="Az5-KR-GP3"/>
                         <outlet property="blueView" destination="Xe8-nD-W4j" id="pcA-Sz-gsr"/>
+                        <outlet property="colorlessView" destination="MNk-KO-hyV" id="3QN-pL-d1E"/>
                         <outlet property="forestCount" destination="Rom-rW-vUc" id="7bN-Th-4ii"/>
                         <outlet property="forestImage" destination="mAW-hc-g1o" id="bTD-85-GET"/>
                         <outlet property="forestMinus" destination="dWz-Wb-OK7" id="Kb3-M8-0w5"/>
@@ -471,68 +540,82 @@
                         <outlet property="swampImage" destination="F8l-F9-9rE" id="MKi-vj-Pgr"/>
                         <outlet property="swampMinus" destination="2Eb-Qj-KEk" id="H6H-6x-zxf"/>
                         <outlet property="swampPlus" destination="RZJ-Bb-KVL" id="BuW-dz-Cdt"/>
+                        <outlet property="wasteCount" destination="QYM-hK-jQq" id="l8g-kf-JuB"/>
+                        <outlet property="wasteImage" destination="zcy-zw-IGC" id="weO-t9-VAb"/>
+                        <outlet property="wasteMinus" destination="fXN-fK-LeS" id="Rf9-Zd-kke"/>
+                        <outlet property="wastePlus" destination="K9N-x2-pB9" id="qEw-ks-A64"/>
                         <outlet property="whiteView" destination="7Ck-1z-qDV" id="7nh-yS-hNP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="zIk-CR-NZX">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="zIk-CR-NZX" userLabel="Storm Plus">
                     <connections>
-                        <action selector="stormPlusGesture:" destination="BYZ-38-t0r" id="1Ys-rn-RLd"/>
+                        <action selector="stormPlusGesture:" destination="BYZ-38-t0r" id="ChL-lw-x5O"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="xIp-og-giu">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="xIp-og-giu" userLabel="Storm Minus">
                     <connections>
                         <action selector="stormMinusGesture:" destination="BYZ-38-t0r" id="K3O-bk-ZJE"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="WaN-6Z-aju">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="WaN-6Z-aju" userLabel="Plains Plus">
                     <connections>
                         <action selector="mountainPlusGesture:" destination="BYZ-38-t0r" id="Wz2-9K-ykQ"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="HGV-Yd-Uaf">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="HGV-Yd-Uaf" userLabel="Plains Minus">
                     <connections>
                         <action selector="mountainMinusGesture:" destination="BYZ-38-t0r" id="wiE-ZJ-ch2"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="bua-Tq-jTN">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="bua-Tq-jTN" userLabel="Mountain Plus">
                     <connections>
                         <action selector="islandPlusGesture:" destination="BYZ-38-t0r" id="ryY-bq-Ktt"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="65k-Zs-bpx">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="65k-Zs-bpx" userLabel="Mountain Minus">
                     <connections>
                         <action selector="islandMinusGesture:" destination="BYZ-38-t0r" id="0Fj-7S-aHo"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="h0r-U1-xb0">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="h0r-U1-xb0" userLabel="Island Plus">
                     <connections>
                         <action selector="swampPlusGesture:" destination="BYZ-38-t0r" id="AoG-TP-OZT"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="Mxf-Qb-c5J">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="Mxf-Qb-c5J" userLabel="Island Minus">
                     <connections>
                         <action selector="swampMinusGesture:" destination="BYZ-38-t0r" id="J8a-kR-g7v"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="4ic-ei-gdK">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="4ic-ei-gdK" userLabel="Forest Plus">
                     <connections>
                         <action selector="plainsPlusGesture:" destination="BYZ-38-t0r" id="ovC-2S-zL0"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="txv-iv-7Lj">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="txv-iv-7Lj" userLabel="Forest Minus">
                     <connections>
                         <action selector="plainsMinusGesture:" destination="BYZ-38-t0r" id="0F0-Vs-9JW"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="gKU-mT-hCb">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="gKU-mT-hCb" userLabel="Swamp Plus">
                     <connections>
                         <action selector="forestPlusGesture:" destination="BYZ-38-t0r" id="ws8-Ld-bPg"/>
                     </connections>
                 </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="cp2-32-Zzk">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="cp2-32-Zzk" userLabel="Swamp Minus">
                     <connections>
                         <action selector="forestMinusGesture:" destination="BYZ-38-t0r" id="Kg4-Iy-TUu"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="bvp-sD-n8G" userLabel="Waste Plus">
+                    <connections>
+                        <action selector="wastePlusGesture:" destination="BYZ-38-t0r" id="4cl-7q-YXT"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="f32-Bc-bgV" userLabel="Waste Minus">
+                    <connections>
+                        <action selector="wasteMinusGesture:" destination="BYZ-38-t0r" id="vAB-5k-Bjy"/>
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
@@ -546,5 +629,6 @@
         <image name="plains" width="680" height="994"/>
         <image name="storm" width="643" height="727"/>
         <image name="swamp" width="680" height="917"/>
+        <image name="waste" width="680" height="1178"/>
     </resources>
 </document>

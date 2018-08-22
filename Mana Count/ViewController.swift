@@ -10,6 +10,7 @@ class ViewController: UIViewController {
     final let BLUE = "blue"
     final let GREEN = "green"
     final let BLACK = "black"
+    final let COLORLESS = "colorless"
     
     @IBOutlet weak var stormView: UIView!
     @IBOutlet weak var whiteView: UIView!
@@ -17,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var blueView: UIView!
     @IBOutlet weak var greenView: UIView!
     @IBOutlet weak var blackView: UIView!
+    @IBOutlet weak var colorlessView: UIView!
     
     @IBOutlet weak var stormImage: UIImageView!
     @IBOutlet weak var plainsImage: UIImageView!
@@ -24,6 +26,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var islandImage: UIImageView!
     @IBOutlet weak var forestImage: UIImageView!
     @IBOutlet weak var swampImage: UIImageView!
+    @IBOutlet weak var wasteImage: UIImageView!
     
     @IBOutlet weak var stormPlus: UIView!
     @IBOutlet weak var stormMinus: UIView!
@@ -37,6 +40,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var forestMinus: UIView!
     @IBOutlet weak var swampPlus: UIView!
     @IBOutlet weak var swampMinus: UIView!
+    @IBOutlet weak var wastePlus: UIView!
+    @IBOutlet weak var wasteMinus: UIView!
     
     @IBOutlet weak var stormCount: UILabel!
     @IBOutlet weak var plainsCount: UILabel!
@@ -44,6 +49,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var islandCount: UILabel!
     @IBOutlet weak var forestCount: UILabel!
     @IBOutlet weak var swampCount: UILabel!
+    @IBOutlet weak var wasteCount: UILabel!
     
     @IBAction func stormPlusGesture(_ sender: UILongPressGestureRecognizer) {
         handleCounterTouch(target: stormPlus, count: stormCount, up: true, gesture: sender)
@@ -80,6 +86,12 @@ class ViewController: UIViewController {
     }
     @IBAction func swampMinusGesture(_ sender: UILongPressGestureRecognizer) {
         handleCounterTouch(target: swampMinus, count: swampCount, up: false, gesture: sender)
+    }
+    @IBAction func wastePlusGesture(_ sender: UILongPressGestureRecognizer) {
+        handleCounterTouch(target: wastePlus, count: wasteCount, up: true, gesture: sender)
+    }
+    @IBAction func wasteMinusGesture(_ sender: UILongPressGestureRecognizer) {
+        handleCounterTouch(target: wasteMinus, count: wasteCount, up: false, gesture: sender)
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -173,7 +185,8 @@ class ViewController: UIViewController {
                 self.mountainCount.text != "0" ||
                 self.islandCount.text != "0" ||
                 self.forestCount.text != "0" ||
-                self.swampCount.text != "0")
+                self.swampCount.text != "0" ||
+                self.wasteCount.text != "0")
     }
     
     func setCountersToZero() {
@@ -183,20 +196,12 @@ class ViewController: UIViewController {
         self.islandCount.text = "0"
         self.forestCount.text = "0"
         self.swampCount.text = "0"
+        self.wasteCount.text = "0"
     }
     
     @objc func setupSelectedCounters() {
         unhideAllCounterViews()
         showSelectedCounterViews()
-        
-        //print(UserDefaults.standard.bool(forKey: STORM))
-        //print(UserDefaults.standard.bool(forKey: WHITE))
-        //print(UserDefaults.standard.bool(forKey: RED))
-        //print(UserDefaults.standard.bool(forKey: BLUE))
-        //print(UserDefaults.standard.bool(forKey: GREEN))
-        //print(UserDefaults.standard.bool(forKey: BLACK))
-
-        
     }
     
     func unhideAllCounterViews() {
@@ -206,6 +211,7 @@ class ViewController: UIViewController {
         blueView.isHidden = false
         greenView.isHidden = false
         blackView.isHidden = false
+        colorlessView.isHidden = false
     }
     
     func showSelectedCounterViews() {
@@ -233,6 +239,10 @@ class ViewController: UIViewController {
             blackView.isHidden = true
             swampCount.text = "0"
         }
+        if !UserDefaults.standard.bool(forKey: COLORLESS) {
+            colorlessView.isHidden = true
+            wasteCount.text = "0"
+        }
     }
     
     func setupImageBorderRadii() {
@@ -242,6 +252,7 @@ class ViewController: UIViewController {
         islandImage.layer.cornerRadius = 10
         forestImage.layer.cornerRadius = 10
         swampImage.layer.cornerRadius = 10
+        wasteImage.layer.cornerRadius = 10
     }
     
     func handleCounterTouch(target: UIView, count: UILabel, up: Bool, gesture: UILongPressGestureRecognizer) {
