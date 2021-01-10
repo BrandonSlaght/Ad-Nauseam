@@ -8,11 +8,11 @@ An app for keeping track of floating mana in Magic: the Gathering. Useful for pl
 
 # # Media used:
 
-[Supreme Verdict](http://www.artofmtg.com/art/supreme-verdict/ "Link to Art of MTG")
-[Plains](https://scryfall.com/card/ust/212/plains "Link to Scryfall")
-[Island](https://scryfall.com/card/ust/213/island "Link to Scryfall")
-[Swamp](https://scryfall.com/card/ust/214/swamp "Link to Scryfall")
-[Mountain](https://scryfall.com/card/ust/215/mountain "Link to Scryfall")
-[Forest](https://scryfall.com/card/ust/216/forest "Link to Scryfall")
-[Wastes](https://scryfall.com/card/ogw/183a/wastes "Link to Scryfall")
+[Supreme Verdict](http://www.artofmtg.com/art/supreme-verdict/ "Link to Art of MTG")  
+[Plains](https://scryfall.com/card/ust/212/plains "Link to Scryfall")  
+[Island](https://scryfall.com/card/ust/213/island "Link to Scryfall")  
+[Swamp](https://scryfall.com/card/ust/214/swamp "Link to Scryfall")  
+[Mountain](https://scryfall.com/card/ust/215/mountain "Link to Scryfall")  
+[Forest](https://scryfall.com/card/ust/216/forest "Link to Scryfall")  
+[Wastes](https://scryfall.com/card/ogw/183a/wastes "Link to Scryfall")  
 [Mana](https://www.deviantart.com/thekagestar/art/Magic-the-Gathering-Symbols-193306481 "Link to DeviantArt")
