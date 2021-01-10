@@ -6,7 +6,7 @@
 
 An app for keeping track of floating mana in Magic: the Gathering. Useful for playing Storm decks. Made in Swift over a weekend. [Available on the App Store.](https://apps.apple.com/us/app/mana-count/id1361900486 "App Store link")
 
-# # Media used:
+## Media used:
 
 [Supreme Verdict](http://www.artofmtg.com/art/supreme-verdict/ "Link to Art of MTG")  
 [Plains](https://scryfall.com/card/ust/212/plains "Link to Scryfall")  
